@@ -13,6 +13,6 @@
     <aws-context:context-region auto-detect="false"/>
     <aws-context:context-region region="${cloud.aws.region.static:eu-central-1}" />
 
-    <aws-context:stack-configuration/>
+    <aws-context:stack-configuration stack-name="" />
 
     </beans>

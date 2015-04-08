@@ -18,3 +18,5 @@ cloud:
     region:
       auto: false
       static: eu-central-1
+    stack:
+      auto: true

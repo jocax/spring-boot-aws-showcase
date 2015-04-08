@@ -1,9 +1,9 @@
 package com.jocax.spring.boot.aws.showcase;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class AwsInfo {
 
     @Value("${ami-id:N/A}")

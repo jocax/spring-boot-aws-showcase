@@ -6,7 +6,6 @@ import org.springframework.cloud.aws.context.config.annotation.EnableContextInst
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
